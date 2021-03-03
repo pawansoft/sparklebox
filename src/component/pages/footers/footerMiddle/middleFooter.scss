@@ -1,0 +1,17 @@
+.useful-link-container{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.links {
+    padding: 5px;
+}
+
+.signup-textbox{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: aqua;
+    width: 50%;
+    align-self: center;
+}
