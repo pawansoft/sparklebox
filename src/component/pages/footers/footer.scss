@@ -1,0 +1,72 @@
+@mixin header-text{
+    margin: 0%;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+}
+// **********************footer-top****************************//
+.footer-top-container {
+  padding: 1% 7% 1% 7%;
+  background-color: #4db7b3;
+  .footer-top-all-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .footer-top-data-container {
+      margin: 0 3%;
+      h2 {
+        @include header-text;
+      }
+      p {
+        margin: 0%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+}
+//************************footer-middle*************************//
+
+.outer-gotaquestion-component{
+    background: transparent;
+    h2 {
+        @include header-text;
+      }
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+      }
+      p:hover {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: #ffffff;
+      }
+}
+.outer-about-container{
+    background: transparent;
+    h2 {
+        @include header-text;
+      }
+    p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+      }
+      p:hover {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: #ffffff;
+      }
+
+}
